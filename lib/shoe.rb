@@ -15,5 +15,5 @@ end
 end
 
 
-adidas = Shoe.new("adidas")
-adidas.color = "red"
+# adidas = Shoe.new("adidas")
+# adidas.color = "red"
