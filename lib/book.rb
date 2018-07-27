@@ -16,5 +16,8 @@ end
  
 end 
 
-Book.new("The Great Gatsby")  
-"The Great Gatsby".author = "F Scott Fitzgerald"
+the_great_gatsby = Book.new("The Great Gatsby")  
+the_great_gatsby.author = "F Scott Fitzgerald"
+
+
+the_great_gatsby.genre = "The Great American Novel"
