@@ -17,4 +17,4 @@ end
 end 
 
 Book.new("The Great Gatsby")  
-The Great Gatsby.author
+The Great Gatsby.author = "F Scott Fitzgerald"
