@@ -9,12 +9,11 @@ attr_accessor :brand, :color, :size, :material, :condition
  end 
  
 def cobble 
-  puts "Your shoe ia as good as new!"
+  @condition = "new"
+  puts "Your shoe is as good as new!"
   
  end
- def new 
-  @shoe.condition = "new"   
-end
+
 end
 adidas = Shoe.new("adidas")
 adidas.color = "red"
