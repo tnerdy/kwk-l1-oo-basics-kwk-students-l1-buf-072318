@@ -15,4 +15,4 @@ end
 
 
 adidas = Shoe.new("adidas")
-adidas = color.new "red"
+adidas.color = "red"
