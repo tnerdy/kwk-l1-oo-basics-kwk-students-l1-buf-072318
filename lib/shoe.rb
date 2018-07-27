@@ -9,7 +9,8 @@ attr_accessor :brand, :color, :size, :material, :condition
  end 
  
 def cobble 
-end
+  puts "the shoe has been repaired"
+ end
 end
 
 adidas = Shoe.new("adidas")
