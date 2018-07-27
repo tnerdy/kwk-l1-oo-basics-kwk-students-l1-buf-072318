@@ -8,9 +8,9 @@ attr_accessor :brand, :color,
   @brand = brand 
  end 
  
- def shoe_color(color)
-  @color = color
-end
+# def shoe_color(color)
+#   @color = color
+# end
  
 end
 
