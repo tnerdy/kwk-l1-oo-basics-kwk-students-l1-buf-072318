@@ -16,6 +16,6 @@ adidas = Shoe.new("adidas")
 adidas.color = "red"
 adidas.size =  "9.5"
 adidas.material = "tattered"
-
+adidas.condition = "good"
 
 
