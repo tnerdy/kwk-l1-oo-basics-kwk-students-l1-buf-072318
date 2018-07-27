@@ -5,10 +5,11 @@ class Shoe
 attr_accessor :brand, :color,
 
  def initialize(brand)
- @brand = brand 
+  @brand = brand 
  end 
+ 
  def shoe_color(color)
-@color = color
+  @color = color
 end
  
 end
