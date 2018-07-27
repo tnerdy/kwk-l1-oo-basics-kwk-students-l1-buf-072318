@@ -2,7 +2,7 @@
 
 class Shoe 
   
-attr_accessor :brand, :color
+attr_accessor :brand, :color, :size, :material
 
  def initialize(brand)
   @brand = brand 
@@ -14,3 +14,8 @@ end
 
 adidas = Shoe.new("adidas")
 adidas.color = "red"
+adidas.size =  "9.5"
+adidas.material = "tattered"
+
+
+
